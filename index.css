@@ -1,0 +1,306 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2016, 12:58:29 AM
+    Author     : homy
+*/
+
+
+section {
+    width: 100%;
+    padding-top: 75%;
+    position: relative;
+}
+    
+    #splash2 {
+    background-color: red;
+    height: 800px;  
+    margin: 0 auto; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 50px 0;
+    color: #f8f7b4;
+    text-shadow: 2px 6px 6px #000000;
+    font-family: sans-serif;
+    overflow: hidden;
+    }
+    
+    
+    
+    #splash1 { 
+    background: url('/pics/starsclouds.jpg'); 
+    background-size: cover;
+    height: 1000px;  
+    margin: 0 auto; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    overflow: hidden;
+    }
+    
+    
+    
+    #splash3 {
+        background-color: #f7e295;
+        background-size: cover;
+        height: 1000px;  
+        margin: 0 auto; 
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        padding: 100px 0;
+        overflow: hidden;
+        text-shadow: 2px 4px 6px #9a8a50;
+        font-family: sans-serif;
+    }
+    
+    #splash4 {
+    background-color: #1f2ace;
+    height: 1100px;  
+    margin: 0 auto; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 50px 0;
+    color: #f8f7b4;
+    text-shadow: 2px 8px 6px #000000;
+    font-family: sans-serif;
+    overflow: hidden;
+    }
+    
+    
+    #splash5 {
+    background-color: #8B4513;
+    height: 1400px;  
+    margin: 0 auto; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 50px 0;
+    color: #f8f7b4;
+    text-shadow: 2px 8px 6px #000000;
+    font-family: sans-serif;
+    overflow: hidden;
+    }
+    
+    #logo {
+        background-color: rgba(0,0,0,0.8);
+        -webkit-box-shadow: 66px 28px 91px 8px rgba(0,0,0,1);
+        -moz-box-shadow: 66px 28px 91px 8px rgba(0,0,0,1);
+        box-shadow: 66px 28px 91px 8px rgba(0,0,0,1);
+        height: 400px;
+        width: 800px;
+        border-radius: 12px;
+        padding: 10px;
+        position: absolute; 
+        bottom: 10%;
+
+    }
+    
+    #logo img {
+        max-width:100%;
+        max-height:100%;
+    }
+    
+    
+    .sec_1 {
+        height:  40%;
+        width: 20%;
+        background-color: rgba(119,136,153,0.7);
+        box-shadow: 0 0 50px rgba(0,0,0,1);
+        border-radius: 167px 27px 153px 29px;
+        -moz-border-radius: 167px 27px 153px 29px;
+        -webkit-border-radius: 167px 27px 153px 29px;
+        margin: 20px;      
+        overflow: hidden;
+    }
+    
+    .psylo {
+        height:  100px;
+        width: 20%;
+        background-color: rgba(100,100,100,0.5);
+        box-shadow: 0 0 50px rgba(0,0,0,1);
+        border-radius: 29px 27px 29px 29px;
+        -moz-border-radius: 167px 27px 153px 29px;
+        -webkit-border-radius: 167px 27px 153px 29px;
+        margin: 0px;      
+        overflow: hidden;
+        text-align: center;
+        top: 0px; 
+        padding: 10px;
+        position: relative;
+        font-weight: bold;
+        color: white;
+        font-family:sans-serif; 
+        font-size: 1.6em;
+        text-shadow: 7px 7px 5px #000000;
+        
+        
+    }
+    
+    #psy_b {
+        position: absolute;
+        right: 50%;
+        top: 5%;
+    }
+    
+    #rtn_b {
+        position: absolute;
+        right: 25%;
+        top: 5%;
+    }  
+    
+    
+    #psy_logo {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+    }
+    
+    
+    #btc_b {
+        position: absolute;
+        top: 80%;
+        right: 10%;
+    }    
+    
+    
+  #splash1  span {
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word; 
+   position: relative;
+   top: 100px;
+   padding: 10px;
+   font-weight: bold;
+   color: white;
+   font-family:sans-serif; 
+   font-size: 1.8em;
+   text-shadow: 7px 7px 5px #000000;
+   text-align: right;
+   
+    }
+    
+    
+    #splash2 h1 {
+        text-align: center;
+        font-size: 5em;
+        
+    }
+    
+    #splash2 h3 {
+        font-size: 3em;
+        padding: 5px;
+    }
+    
+    #splash2 .row {
+        padding: 30px;
+        text-align: center;
+    }
+    
+    #splash2 li {
+        text-align: left;
+        font-size: 1.6em;
+        padding: 5px;
+    }
+    
+    #splash2 p {
+        font-size: 1.3em;
+        display: block;
+        padding: 10px;
+    }
+    
+    #rules {
+        padding: 20px;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    
+    #splash3 img {
+        border-radius: 50%;
+        height: 100px;
+        
+    }
+    
+    #splash3 p {
+        font-size: 1.3em;
+        display: block;
+        padding: 50px;        
+    }
+    
+    #splash3 h1 {
+        padding-left: 20px;
+    }
+    
+    .space {
+        padding: 20px;
+    }
+    
+    #splash4 h1 {
+        padding-left: 20px;
+    }
+    
+    #splash4 p {
+        font-size: 1.3em;
+        display: block;
+        padding: 30px;         
+    }
+    
+    #splash4 span {
+        font-size: 1.3em;
+        display: block;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    
+    #splash4 a {
+        color: yellow;
+        font-size: 1.2em;
+    }
+    
+    
+    #splash5 th {
+        font-size: 1.9em;
+        display: block;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    #splash5 td {
+        font-size: 1.6em;       
+        display: block;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 100px;
+    }
+    
+    .num {
+        background: url('/pics/painting.jpg');
+        font-size: 6em;
+        height: 150px;
+        width: 150px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        line-height: 150px;
+        color: yellow;
+        text-shadow: none;
+        font-weight: bold;
+    }
+    
+    nav {
+        color: white;
+        background-color: rgba(0,0,0,0.8);
+        padding-left: 50px;        
+    }
+    
+    nav td {
+        padding: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
+    #btcode {
+        font-weight: bold;
+        font-size: .5em;
+    }
